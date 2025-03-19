@@ -8,6 +8,7 @@ import {FormsModule} from '@angular/forms';
 
 import {Hero} from '../hero';
 import {HEROES} from '../mock-heroes';
+import { RemoveSpacesPipe } from '../remove-spaces.pipe'; 
 
 @Component({
   standalone: true,
@@ -19,6 +20,8 @@ import {HEROES} from '../mock-heroes';
     NgIf,
     NgFor,
     UpperCasePipe,
+    RemoveSpacesPipe
+  
   ],
 })
 
